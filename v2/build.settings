@@ -1,0 +1,11 @@
+settings =
+{
+	orientation =
+	{
+			default = "landscape"
+	},
+
+	plugins = {
+		["plugin.bit"] = { publisherId = "com.coronalabs" }
+	}
+}
