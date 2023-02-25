@@ -10,10 +10,10 @@ turn be used to produce a mesh and finally render that to a texture.
 
 Some discussion may be found [here](https://www.youtube.com/watch?v=UKlaECIYRUA).
 
-There is quite a lot of customization possible&emdash;perturbing the vertices and / or normals, say, or choosing the
-shader that will consume the data&emdash;some of which is explored in that video.
+There is quite a lot of customization possible&mdash;perturbing the vertices and / or normals, say, or choosing the
+shader that will consume the data&mdash;some of which is explored in that video.
 
-======================
+---
 
 There are some (probably unenlightening) drawings to go along with this and lay out how all the values line up.
 
