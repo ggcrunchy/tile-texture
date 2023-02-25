@@ -246,7 +246,7 @@ local function InterpolateNormals (state, t)
 end
 
 local function SetNormals (state, nx1, ny1, nx2, ny2, no_normalize)
-	local nz1, nz2 = sqrt(1 - nx1^2 - ny1^2), sqrt(1 - nx2^2 - ny2^2)
+	local nz1, nz2 = sqrt(1 + 1e-8 - nx1^2 - ny1^2), sqrt(1 + 1e-8 - nx2^2 - ny2^2)
 
 	state.m_normal_x, state.m_normal_dx = nx1, nx2 - nx1
 	state.m_normal_y, state.m_normal_dy = ny1, ny2 - ny1
